@@ -24,7 +24,8 @@ retriever = vectorstore.as_retriever()
 llm = ChatGoogleGenerativeAI(
     model="gemini-1.5-flash",
     temperature=0.2,
-    google_api_key=os.getenv("GOOGLE_API_KEY")
+    # google_api_key=os.getenv("GOOGLE_API_KEY")
+    google_api_key = st.secrets["GOOGLE_API_KEY"]
 )
 
 qa_chain = RetrievalQA.from_chain_type(

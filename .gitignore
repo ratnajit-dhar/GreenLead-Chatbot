@@ -1,3 +1,4 @@
+.streamlit/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -12,7 +13,7 @@ build/
 develop-eggs/
 dist/
 downloads/
-eggs/
+eggs/https://github.com/ratnajit-dhar/GreenLead-Chatbot.git
 .eggs/
 lib/
 lib64/

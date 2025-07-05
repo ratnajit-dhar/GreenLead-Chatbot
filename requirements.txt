@@ -6,7 +6,7 @@ fastapi
 python-dotenv
 langchain
 chromadb
-pypdf2
+pypdf
 sentence-transformers
 tiktoken
 tqdm
@@ -18,3 +18,10 @@ logging
 faiss-cpu
 streamlit
 utils
+pinecone-client
+langchain-pinecone
+bs4
+fastapi
+uvicorn
+beautifulsoup4
+requests
